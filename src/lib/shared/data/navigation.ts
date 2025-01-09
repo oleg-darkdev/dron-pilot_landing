@@ -1,31 +1,44 @@
 const navigation = [
-	{
-		title: 'O projekcie',
-		link: '#about'
-	},
-	{
-		title: 'Misja',
-		link: '#mission'
-	},
 	// {
-	// 	title: 'Lorem Ipsum',
+	// 	title: 'Fly to earn ',
 	// 	link: '/'
 	// },
 	{
-		title: 'Lista gier',
-		link: '#boardgames'
+		title: 'Cyfryzacja działalności',
+		link: '/'
 	},
-	// {
-	// 	title: 'Lorem Ipsum',
-	// 	link: '/'
-	// },
+	{
+		title: 'Usługi',
+		link: '/'
+	},
+
+	{
+		title: 'Technologie',
+		link: '/'
+	},
+	{
+		title: 'Kontact',
+		anchor: '#kontakt'
+	},
+	{
+		title: 'Zespół',
+		anchor: '#team'
+	},
 	{
 		title: 'F.A.Q.',
-		link: '#faq'
+		anchor: '#faq'
 	},
 	// {
-	// 	title: 'Lorem Ipsum',
-	// 	link: '/'
+	// 	title: 'Lorem impsum',
+	// 	anchor: ''
+	// },
+	// {
+	// 	title: 'Lorem impsum',
+	// 	anchor: ''
+	// },
+	// {
+	// 	title: 'Lorem impsum',
+	// 	anchor: ''
 	// }
 ];
 

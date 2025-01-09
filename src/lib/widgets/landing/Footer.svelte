@@ -1,396 +1,282 @@
 <script lang="ts">
-	import { boardgamesList } from '$sharedData';
+	import { navigation } from '$sharedData';
+	// import {  } from '$widgets';
+	// import {  } from '$entities'
 
-	import { BigContaciDivider } from '$sharedUi';
-	import type { NavigationLink } from '$sharedTypes';
+	const services = [
+		{
+			title: 'Dron',
+			anchor: ''
+		},
+		// {
+		// 	title: 'Ai',
+		// 	anchor: ''
+		// },
+		// {
+		// 	title: 'AR',
+		// 	anchor: ''
+		// },
+		{
+			title: 'Cyfrowy Archiwium',
+			anchor: ''
+		}
+		// {
+		// 	title: '',
+		// 	anchor: ''
+		// },
+		// {
+		// 	title: '',
+		// 	anchor: ''
+		// },
+		// {
+		// 	title: '',
+		// 	anchor: ''
+		// }
+	];
 
-	interface NavigationProps {
-		navigation: NavigationLink[];
-	}
+	const tech = [
+		{
+			title: 'AR',
+			anchor: ''
+		},
+		{
+			title: 'AI',
+			anchor: ''
+		},
+		// {
+		// 	title: 'Dron',
+		// 	anchor: ''
+		// },
+		{
+			title: 'Iot',
+			anchor: ''
+		}
+		// {
+		// 	title: 'Cyfrowy Archiwium',
+		// 	anchor: ''
+		// },
+		// {
+		// 	title: '',
+		// 	anchor: ''
+		// },
+		// {
+		// 	title: '',
+		// 	anchor: ''
+		// }
+	];
 
-	let { navigation, categories } = $props();
+	
 </script>
 
-<footer class="footer">
-	<div class="w-layout-blockcontainer container-full w-container">
-		<div class="footer-wrap">
-			<a href="/" aria-current="page" class="footer-logo-link w-inline-block w--current">
-				<img
-					src="/images/logos/puzzle_management.svg"
-					loading="lazy"
-					alt="Logo"
-					class="footer-logo h-64"
-				/>
-			</a>
-			<div class="footer-block">
-				<div class="footer-menu-big">
-					{#each categories as { title, anchor }}
+<div class="footer wf-section">
+	<div class="footer-inner">
+		<div class="container">
+			<div class="footer-grid">
+				<a
+					href="/"
+					aria-current="page"
+					class="footer-logo w-inline-block w--current"
+				>
+					<img
+						src="images/logo.png"
+						loading="lazy"
+						alt=""
+						class="logo"
+					/>
+				</a>
+				<div class="footer--link-grid">
+					<div class="footer--link-wr">
 						<a
-							href="#{anchor}"
-							class="footer-menu-big-item w-inline-block group transition delay-150 duration-300 ease-in-out hover:-translate-y-8"
+							href="/"
+							class="footer-link"></a
 						>
-							<div class="footer-menu-text-small">. pomoc przy</div>
-							<h6>{title}</h6>
-						</a>
-					{/each}
-					<!-- <a href="/service" class="footer-menu-big-item w-inline-block">
-                        <div class="footer-menu-text-small">. What we do</div>
-                        <h6>Services</h6>
-                    </a>
-                    <a href="/about" class="footer-menu-big-item w-inline-block">
-                        <div class="footer-menu-text-small">. Who we are</div>
-                        <h6>About</h6>
-                    </a>
-                    <a href="/blog" class="footer-menu-big-item w-inline-block">
-                        <div class="footer-menu-text-small">. Insights &amp; Ideas</div>
-                        <h6>Blog</h6>
-                    </a> -->
+						<!-- <a
+							id="w-node-_32f01141-1e30-bfb0-e16c-211537b79907-37b798fd"
+							href="/access-imagery"
+							class="footer-link">oRDER DATA</a
+						> -->
+					</div>
+					<div class="footer--link-wr">
+						{#each services as { title, anchor }}
+							<a href={anchor} class="footer-link">{title}</a>
+						{/each}
+					</div>
+					<div class="footer--link-wr">
+						{#each tech as { title, anchor }}
+							<a href={anchor} class="footer-link">{title}</a>
+						{/each}
+					</div>
+					<div class="footer--link-wr">
+						{#each navigation as { title, anchor }}
+							<a href={anchor} class="footer-link">{title}</a>
+						{/each}
+					</div>
+					<!-- <a
+						id="w-node-_32f01141-1e30-bfb0-e16c-211537b7991a-37b798fd"
+						href="#"
+						class="down-btn w-inline-block"
+					>
+						<img
+							src="images/638dadf7b305ca41bceed12f_Vector.svg"
+							loading="eager"
+							alt=""
+							class="down-btn--ico"
+						/>
+					</a> -->
 				</div>
-			</div>
-			<div class="w-layout-grid grid-footer">
-				<div class="">
-					<!-- <div class="footer-title-wrap">
-						<img src="/images/social-icon.svg" loading="lazy" alt="" class="footer-shape-1" />
-						<h6 class="footer-title">Social media</h6>
+				<div  class="footer--bottom">
+					<div class="footer--bottom-wr">
+						<div class="footer--bootom-copy">2025 All rights reserved</div>
+						<!-- <a href="/pravicy-policy" class="footer-link">Privacy policy</a> -->
 					</div>
-					<div class="footer-social mb-20">
-						<a
-							href="https://www.facebook.com/"
-							target="_blank"
-							class="footer-social-item w-inline-block"
-						>
-							<img src="images/facebook.svg" loading="lazy" alt="" class="footer-social-icon" />
-						</a>
-					
-					</div> -->
-					<!-- images/66d0464eec8062a3c7b9f08b_twitter.svg -->
-					<!-- 66d0464eec8062a3c7b9f089_facebook.svg -->
-					<!-- images/66d0464eec8062a3c7b9f08a_instagram.svg -->
-
-					<div class="footer-title-wrap">
-						<img src="/images/contact-icon.svg" loading="lazy" alt="" class="footer-shape-1" />
-						<h6 class="footer-title">Kontact</h6>
-					</div>
-					<div class="footer-contact">
-						<p class="no-margin">
-							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-						</p>
-						<a href="tel:+48000000000" class="text-white">+48 000 000 000</a>
-						<a href="mailto:darkdev_brand@riseup.net" class="text-white">darkdev_brand@riseup.net</a
-						>
-					</div>
-				</div>
-
-				<div class="">
-					<div class="footer-title-wrap">
-						<img src="/images/boardgames-icon.svg" loading="lazy" alt="" class="footer-shape-1" />
-						<h6 class="footer-title">Lista gier</h6>
-					</div>
-					<!-- w-layout-grid grid-footer-menu -->
-					<div class="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
-						{#each categories as { title, games, abstractIcon }}
-							<div class="mb-12">
-								<div class="mb-4">
-									<h6 class="footer-title">{title}</h6>
-								</div>
-								<!-- :  : Boardgame -->
-								<!-- w-layout-grid grid-footer-menu -->
-								<div class="">
-									{#each games as { progress, title, icon, linkLanding }}
-										<!-- <BoardgameCard {boardgame} /> -->
-										<a
-											href={progress.landing ? linkLanding : '#'}
-											target="_blank"
-											class="footer-link mb-6 flex flex-row"
-										>
-											<img src={icon} class="mr-2 h-8" alt={title} />
-											{title}
-										</a>
-									{/each}
-								</div>
+					<div class="footer--bottom-media">
+						<!-- <a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M17.9586 9.17472C17.9647 9.31497 17.9647 9.44885 17.9647 9.5891C17.9708 13.8412 14.8757 18.75 9.21568 18.75C7.5463 18.75 5.90739 18.2464 4.5 17.3029C4.7437 17.3347 4.98741 17.3475 5.23111 17.3475C6.61413 17.3475 7.9606 16.863 9.05118 15.9641C7.73517 15.9386 6.57758 15.0397 6.17547 13.7265C6.63851 13.8221 7.11373 13.803 7.56458 13.6691C6.13282 13.3759 5.10317 12.0562 5.09708 10.5198C5.09708 10.5071 5.09708 10.4943 5.09708 10.4816C5.52356 10.7302 6.00487 10.8705 6.49228 10.8832C5.14582 9.93972 4.72543 8.05909 5.54184 6.58646C7.10764 8.60097 9.41064 9.8186 11.8842 9.95247C11.6344 8.83684 11.9756 7.66384 12.7738 6.87334C14.0106 5.65571 15.9602 5.71946 17.13 7.01359C17.8184 6.87334 18.4825 6.60559 19.0857 6.22946C18.8542 6.97534 18.3729 7.60646 17.7331 8.00809C18.3424 7.93159 18.9395 7.75946 19.5 7.50446C19.0857 8.15472 18.5617 8.71572 17.9586 9.17472Z"
+										fill="currentcolor"
+									></path>
+								</svg>
 							</div>
-						{/each}
-						<!-- {#each boardgamesList as { title, progress, linkLanding, icon }}
-							<a href={progress.landing ? linkLanding : '#'} target="_blank" class="footer-link">
-								<img src={icon} class="h-8" alt={title} />
-								{title}
-							</a>
-						{/each} -->
-					</div>
-				</div>
-				<div class="footer-item">
-					<div class="footer-title-wrap">
-						<img src="/images/navigation-icon-1.svg" loading="lazy" alt="" class="footer-shape-1" />
-						<h6 class="footer-title">Nawigacja</h6>
-					</div>
-					<div class="footer-menu">
-						<!-- : NavigationLink -->
-						{#each navigation as { title, link }}
-							<a href={link} aria-current="page" class="footer-link">{title}</a>
-						{/each}
+						</a> -->
+						<!-- <a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M20.4341 12.3849C20.4341 11.3326 19.6369 10.4785 18.6547 10.4785C18.1707 10.4785 17.7436 10.6768 17.4304 11.0123C16.2204 10.082 14.5407 9.47194 12.6901 9.39568L13.5015 5.32357L16.135 5.91838C16.1635 6.63519 16.7187 7.21474 17.402 7.21474C18.0995 7.21474 18.6689 6.60469 18.6689 5.85737C18.6689 5.11006 18.0995 4.5 17.402 4.5C16.9037 4.5 16.4767 4.80503 16.2774 5.26257L13.3307 4.59151C13.2453 4.57626 13.1599 4.59151 13.0887 4.63726C13.0175 4.68302 12.9748 4.75927 12.9463 4.85078L12.0495 9.39568C10.1562 9.45669 8.46224 10.0515 7.23801 11.0123C6.92484 10.692 6.48354 10.4785 6.01378 10.4785C5.03155 10.4785 4.23438 11.3326 4.23438 12.3849C4.23438 13.1628 4.66143 13.8186 5.28778 14.1236C5.25931 14.3066 5.24508 14.5049 5.24508 14.7032C5.24508 17.6314 8.41954 19.9954 12.3485 19.9954C16.2774 19.9954 19.4519 17.6314 19.4519 14.7032C19.4519 14.5049 19.4376 14.3219 19.4091 14.1389C19.9928 13.8338 20.4341 13.1628 20.4341 12.3849ZM8.26295 13.7423C8.26295 12.995 8.83236 12.3849 9.52989 12.3849C10.2274 12.3849 10.7968 12.995 10.7968 13.7423C10.7968 14.4896 10.2274 15.0997 9.52989 15.0997C8.83236 15.0997 8.26295 14.4896 8.26295 13.7423ZM15.3379 17.3264C14.4695 18.2567 12.8182 18.3177 12.3342 18.3177C11.8502 18.3177 10.1847 18.2415 9.33059 17.3264C9.20247 17.1891 9.20247 16.9604 9.33059 16.8231C9.45871 16.6858 9.67224 16.6858 9.80035 16.8231C10.3413 17.4026 11.5086 17.6162 12.3485 17.6162C13.1883 17.6162 14.3414 17.4026 14.8966 16.8231C15.0247 16.6858 15.2382 16.6858 15.3663 16.8231C15.466 16.9756 15.466 17.1891 15.3379 17.3264ZM15.1101 15.0997C14.4126 15.0997 13.8432 14.4896 13.8432 13.7423C13.8432 12.995 14.4126 12.3849 15.1101 12.3849C15.8076 12.3849 16.377 12.995 16.377 13.7423C16.377 14.4896 15.8076 15.0997 15.1101 15.0997Z"
+										fill="currentcolor"
+									></path>
+								</svg>
+							</div>
+						</a> -->
+						<a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M4.87109 6.24242C4.87109 5.73736 5.04002 5.3207 5.37785 4.99242C5.71568 4.66414 6.15488 4.5 6.69542 4.5C7.22631 4.5 7.65584 4.66161 7.98403 4.98485C8.32186 5.31818 8.49078 5.75252 8.49078 6.28788C8.49078 6.77273 8.3267 7.17676 7.99851 7.5C7.66067 7.83333 7.21665 8 6.66646 8H6.65198C6.12109 8 5.69156 7.83333 5.36337 7.5C5.03518 7.16667 4.87109 6.74747 4.87109 6.24242ZM5.05932 19.5V9.37879H8.2736V19.5H5.05932ZM10.0545 19.5H13.2688V13.8485C13.2688 13.4949 13.3074 13.2222 13.3846 13.0303C13.5197 12.6869 13.7249 12.3965 14 12.1591C14.2751 11.9217 14.6201 11.803 15.0352 11.803C16.1163 11.803 16.6568 12.5657 16.6568 14.0909V19.5H19.8711V13.697C19.8711 12.202 19.5333 11.0682 18.8576 10.2955C18.1819 9.52273 17.2891 9.13636 16.179 9.13636C14.9338 9.13636 13.9638 9.69697 13.2688 10.8182V10.8485H13.2543L13.2688 10.8182V9.37879H10.0545C10.0738 9.70202 10.0834 10.7071 10.0834 12.3939C10.0834 14.0808 10.0738 16.4495 10.0545 19.5Z"
+										fill="currentcolor"
+									></path>
+								</svg>
+							</div>
+						</a>
+						<!-- <a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M4.21945 11.8522C8.4473 10.0336 11.2665 8.83471 12.6771 8.25546C16.7047 6.60157 17.5416 6.31428 18.0871 6.30479C18.2071 6.3027 18.4753 6.33206 18.6491 6.47126C18.7958 6.58879 18.8362 6.74757 18.8555 6.85901C18.8748 6.97045 18.8988 7.22431 18.8797 7.42267C18.6615 9.68671 17.7171 15.1809 17.2366 17.7167C17.0333 18.7897 16.633 19.1495 16.2455 19.1847C15.4033 19.2612 14.7638 18.6352 13.948 18.1073C12.6716 17.2812 11.9505 16.767 10.7115 15.9609C9.27964 15.0293 10.2079 14.5173 11.0239 13.6805C11.2374 13.4615 14.9482 10.1293 15.02 9.82697C15.029 9.78916 15.0373 9.64824 14.9525 9.57383C14.8677 9.49941 14.7426 9.52486 14.6523 9.5451C14.5243 9.57378 12.4851 10.9044 8.53492 13.537C7.95613 13.9294 7.43187 14.1206 6.96216 14.1105C6.44433 14.0995 5.44825 13.8215 4.70776 13.5838C3.79953 13.2924 3.07768 13.1383 3.14053 12.6432C3.17327 12.3854 3.53291 12.1217 4.21945 11.8522Z"
+										fill="currentcolor"
+									></path>
+								</svg>
+							</div>
+						</a> -->
+						<!-- <a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M18.2378 6.36908C17.0905 5.8511 15.8602 5.46949 14.5739 5.25092C14.5505 5.2467 14.5271 5.25724 14.515 5.27832C14.3568 5.55522 14.1815 5.91646 14.0588 6.20039C12.6753 5.99659 11.2989 5.99659 9.94374 6.20039C9.82099 5.91015 9.63936 5.55522 9.48043 5.27832C9.46836 5.25794 9.44496 5.2474 9.42154 5.25092C8.13593 5.46879 6.90567 5.85041 5.7577 6.36908C5.74776 6.37329 5.73925 6.38033 5.73359 6.38946C3.40004 9.81983 2.76079 13.1659 3.07439 16.4705C3.0758 16.4866 3.08503 16.5021 3.0978 16.5119C4.63741 17.6245 6.12878 18.2999 7.59246 18.7475C7.61588 18.7546 7.6407 18.7461 7.65561 18.7272C8.00184 18.2619 8.31048 17.7714 8.57511 17.2555C8.59072 17.2253 8.57582 17.1894 8.5439 17.1775C8.05435 16.9948 7.5882 16.772 7.1398 16.519C7.10433 16.4986 7.10149 16.4487 7.13412 16.4248C7.22848 16.3552 7.32286 16.2828 7.41297 16.2097C7.42927 16.1964 7.45198 16.1936 7.47115 16.202C10.417 17.5254 13.6062 17.5254 16.5172 16.202C16.5364 16.1929 16.5591 16.1957 16.5761 16.209C16.6662 16.2821 16.7606 16.3552 16.8557 16.4248C16.8883 16.4487 16.8862 16.4986 16.8507 16.519C16.4023 16.7769 15.9361 16.9948 15.4459 17.1768C15.414 17.1887 15.3998 17.2253 15.4154 17.2555C15.6857 17.7706 15.9943 18.2612 16.3342 18.7265C16.3484 18.7461 16.3739 18.7546 16.3973 18.7475C17.8681 18.2999 19.3595 17.6245 20.8991 16.5119C20.9126 16.5021 20.9211 16.4873 20.9225 16.4712C21.2978 12.6507 20.2939 9.3321 18.2612 6.39016C18.2562 6.38033 18.2477 6.37329 18.2378 6.36908ZM9.01502 14.4583C8.12812 14.4583 7.39735 13.6572 7.39735 12.6732C7.39735 11.6893 8.11395 10.8881 9.01502 10.8881C9.92315 10.8881 10.6469 11.6963 10.6327 12.6732C10.6327 13.6572 9.91606 14.4583 9.01502 14.4583ZM14.9961 14.4583C14.1092 14.4583 13.3784 13.6572 13.3784 12.6732C13.3784 11.6893 14.095 10.8881 14.9961 10.8881C15.9042 10.8881 16.6279 11.6963 16.6137 12.6732C16.6137 13.6572 15.9042 14.4583 14.9961 14.4583Z"
+										fill="currentcolor"
+									></path>
+								</svg>
+							</div>
+						</a> -->
+						<!-- <a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_5935_26610)">
+										<path
+											d="M16.675 16.2188L17.207 12.75H13.8789V10.5C13.8789 9.55078 14.343 8.625 15.8336 8.625H17.3477V5.67188C17.3477 5.67188 15.9742 5.4375 14.6617 5.4375C11.9195 5.4375 10.1289 7.09922 10.1289 10.1063V12.75H7.08203V16.2188H10.1289V24.6047C10.7406 24.7008 11.3664 24.75 12.0039 24.75C12.6414 24.75 13.2672 24.7008 13.8789 24.6047V16.2188H16.675Z"
+											fill="currentcolor"
+										></path>
+									</g>
+									<defs>
+										<clipPath id="clip0_5935_26610">
+											<rect width="24" height="24" rx="2" fill="currentcolor"></rect>
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+						</a> -->
+						<!-- <a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M14.5582 5H11.9932V15.2174C11.9932 16.4348 11.0068 17.4348 9.77909 17.4348C8.55143 17.4348 7.56493 16.4348 7.56493 15.2174C7.56493 14.0217 8.52951 13.0435 9.71334 13V10.4348C7.10455 10.4782 5 12.587 5 15.2174C5 17.8696 7.1484 20 9.80103 20C12.4536 20 14.602 17.8478 14.602 15.2174V9.97825C15.5666 10.6739 16.7504 11.087 18 11.1087V8.54348C16.0708 8.47826 14.5582 6.91304 14.5582 5Z"
+										fill="currentcolor"
+									></path>
+								</svg>
+							</div>
+						</a> -->
+						<!-- <a href="#" class="footer--bottom-btn w-inline-block">
+							<div class="footer--bottom-btn-ico w-embed">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12.2813 6C8.75613 6 5.90625 8.85485 5.90625 12.375C5.90625 15.9001 8.7611 18.75 12.2813 18.75C15.8014 18.75 18.6563 15.8902 18.6563 12.375C18.6563 8.84988 15.8064 6 12.2813 6ZM12.2813 16.5108C9.99737 16.5108 8.14544 14.6589 8.14544 12.375C8.14544 10.0911 9.99737 8.23919 12.2813 8.23919C14.5651 8.23919 16.4171 10.0911 16.4171 12.375C16.4171 14.6589 14.5651 16.5108 12.2813 16.5108Z"
+										fill="currentcolor"
+									></path>
+									<path
+										d="M18.4805 6.40024C19.3089 6.40024 19.9805 5.72826 19.9805 4.89934C19.9805 4.07041 19.3089 3.39844 18.4805 3.39844C17.652 3.39844 16.9805 4.07041 16.9805 4.89934C16.9805 5.72826 17.652 6.40024 18.4805 6.40024Z"
+										fill="currentcolor"
+									></path>
+								</svg>
+							</div>
+						</a> -->
 					</div>
 				</div>
 			</div>
-
-			<div class="footer-bottom">
-				<div class="footer-menu-inline">
-					<a href="/" class="footer-link">Privacy Policy</a>
-				</div>
-				<div>
-					Development by
-					<a href="https://oleg-darkdev.vercel.app/" target="_blank">oleg_darkDev</a>, 
-					Production by
-					<a href="https://forty-four.games" target="_blank">44Games</a>
-				</div>
-			</div>
-
-			<BigContaciDivider />
 		</div>
 	</div>
-</footer>
-
-<!-- <div class="marquee-footer-medium-wrap">
-
-<div class="marquee-big-items">
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
 </div>
-
-<div class="marquee-big-items">
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-<a href="/" class="marquee-medium-item">Get in touch.</a>
-
-</div>
-</div> -->
 
 <style lang="postcss">
-	.footer-block {
-		width: 60%;
-		margin: 40px auto 50px;
-	}
-
-	.footer-menu-big {
-		justify-content: space-between;
-		margin-top: 30px;
-		display: flex;
-	}
-
-	.footer-menu-big-item {
-		color: var(--color--white);
-		text-decoration: none;
-	}
-
-	.footer-menu-text-small {
-		font-size: 12px;
-	}
-
-	.grid-footer {
-		grid-column-gap: 30px;
-		grid-row-gap: 30px;
-		grid-template-rows: auto;
-		grid-template-columns: 1fr 2.5fr 1fr;
-		/* grid-template-columns: 1fr 1.25fr 1fr 1fr; */
-	}
-
-	.footer-title-wrap {
-		grid-column-gap: 10px;
-		grid-row-gap: 10px;
-		align-items: center;
-		margin-bottom: 40px;
-		display: flex;
-	}
-
-	.footer-menu {
-		grid-column-gap: 10px;
-		grid-row-gap: 10px;
-		flex-direction: column;
-		display: flex;
-	}
-
-	.footer-link {
-		color: var(--color--white);
-		font-size: 14px;
-		text-decoration: none;
-	}
-
-	.footer-link:hover {
-		color: var(--color--primary-1);
-	}
-
-	.footer-link.w--current {
-		text-decoration: underline;
-	}
-
-	.footer-shape-1 {
-		z-index: 0;
-		height: 36px;
-	}
-
-	.footer-title {
-		z-index: 1;
-		margin-bottom: 0;
-		position: relative;
-	}
-
-	.grid-footer-menu {
-		grid-template-rows: auto;
-	}
-
-	.footer-contact {
-		grid-column-gap: 15px;
-		grid-row-gap: 15px;
-		flex-direction: column;
-		display: flex;
-	}
-	.footer-social {
-		grid-column-gap: 15px;
-		grid-row-gap: 15px;
-		flex-direction: column;
-		display: flex;
-	}
-
-	.footer-social-item {
-		border: 1px solid var(--color--white);
-		border-radius: var(--border-radius--round);
-		justify-content: center;
-		align-items: center;
-		width: 30px;
-		height: 30px;
-		display: flex;
-	}
-
-	.footer-social-icon {
-		height: 18px;
-	}
-
-	.footer-bottom {
-		border-top: 1px solid var(--color--border-color);
-		justify-content: space-between;
-		margin-top: 40px;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		display: flex;
-	}
-
-	.footer-menu-inline {
-		grid-column-gap: 30px;
-		grid-row-gap: 30px;
-		display: flex;
-	}
-
-	.footer-logo {
-		/* height: 70px; */
-	}
-
-	.footer-logo-link {
-		text-align: center;
-		justify-content: center;
-		display: flex;
-	}
-
-	.subscribe-footer-form {
-		grid-column-gap: 10px;
-		grid-row-gap: 10px;
-		align-items: center;
-		display: flex;
-		position: relative;
-	}
-
-	.footer-wrap {
-		border-top: 1px solid var(--color--border-color);
-		padding-top: 100px;
-		padding-bottom: 50px;
-	}
-
-	@media screen and (max-width: 991px) {
-		.footer-block {
-			width: 100%;
-		}
-		.footer-wrap {
-			padding-top: 70px;
-			padding-bottom: 20px;
-		}
-	}
-
-	@media (max-width: 768px) {
-		.empty-title {
-			display: none;
-		}
-		.footer-wrap {
-			padding-top: 60px;
-			padding-bottom: 10px;
-		}
-
-		.footer-menu-big {
-			grid-column-gap: 10px;
-			grid-row-gap: 10px;
-			flex-wrap: wrap;
-			grid-template-rows: auto;
-			grid-template-columns: 1fr 1fr;
-			grid-auto-columns: 1fr;
-			display: grid;
-		}
-
-		.grid-footer {
-			grid-template-columns: 1fr 1.25fr;
-		}
-	}
-
-	@media screen and (max-width: 479px) {
-		.footer-block {
-			margin-bottom: 40px;
-		}
-		.footer-wrap {
-			padding-top: 40px;
-		}
-		.grid-footer {
-			grid-template-columns: 1fr;
-		}
-
-		.footer-title-wrap {
-			margin-bottom: 30px;
-		}
-
-		.footer-bottom {
-			margin-top: 30px;
-			padding-bottom: 20px;
-		}
-	}
 </style>

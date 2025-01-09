@@ -1,0 +1,90 @@
+<script lang="ts">
+	// import {  } from '$shared';
+	// import {  } from '$widgets';
+	// import {  } from '$entities''
+
+	const tech = [
+		{
+			title: 'Lorem Ipsum jest.',
+			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
+			shortDesc:
+				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. '
+		},
+		{
+			title: 'Lorem Ipsum jest.',
+			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
+			shortDesc:
+				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających.'
+		},
+		{
+			title: 'Lorem Ipsum jest.',
+			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
+			shortDesc:
+				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.'
+		},
+		{
+			title: 'Lorem Ipsum jest.',
+			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
+			shortDesc:
+				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje.'
+		},
+		{
+			title: 'Lorem Ipsum jest.',
+			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
+			shortDesc:
+				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum.'
+		},
+		{
+			title: 'Lorem Ipsum jest.',
+			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
+			shortDesc:
+				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. '
+		}
+	];
+</script>
+
+<div class="h-seq wf-section">
+	<div class="container">
+		<div class="h-seq-title">
+			<div class="text-wr-wr">
+				<div class="text-wr--h2">
+					<h2 class="h2 mod--textgrad">Lorem Ipsum jest tekstem stosowanym.</h2>
+				</div>
+			</div>
+		</div>
+		<div class="h-seq--inner">
+			<!-- 					src="images/638dadf7b305ca8aa7eed12a_ico%202.png"
+ -->
+			<!-- 					src="images/638dadf7b305caa40ceed128_ico.png"
+ -->
+			<!-- 					src="images/638dadf7b305ca59bbeed129_ico%203.png"
+ -->
+			{#each tech as { title, icon, shortDesc }}
+				<div class="h-seq--item">
+					<img src={icon}  qloading="eager" alt="" class="h-seq--ico" />
+					<div class="subhead-3">
+						{title}
+					</div>
+					<div class="subhead-3">
+						{shortDesc}
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
+	<img
+		src="images/638dadf7b305ca170beed130_block-easy-to-join.jpg"
+		loading="eager"
+		srcset="images/638dadf7b305ca170beed130_block-easy-to-join-p-500.jpg 500w, images/638dadf7b305ca170beed130_block-easy-to-join-p-800.jpg 800w, images/638dadf7b305ca170beed130_block-easy-to-join-p-1080.jpg 1080w, images/638dadf7b305ca170beed130_block-easy-to-join-p-1600.jpg 1600w, images/638dadf7b305ca170beed130_block-easy-to-join-p-2000.jpg 2000w, images/638dadf7b305ca170beed130_block-easy-to-join.jpg 2800w"
+		sizes="(max-width: 767px) 100vw, (max-width: 991px) 96vw, 100vw"
+		alt=""
+		class="h-seq--bg"
+	/>
+	<div id="sequence-w" class="h-seq--embed w-embed w-script">
+		<canvas id="main-animations"></canvas>
+		<!-- <script async="" src="https://assets.website-files.com/6370d47a2c89f708dcaaef22/63752fa67eb10bf077e9e95a_spexiSeq.js.txt" type="text/javascript"></script> -->
+	</div>
+</div>
+
+<style lang="postcss">
+</style>
