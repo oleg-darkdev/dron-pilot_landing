@@ -162,7 +162,7 @@
 								</svg>
 							</div>
 						</a> -->
-						<a href="#" class="footer--bottom-btn w-inline-block">
+						<a href="https://www.linkedin.com/in/pawelwojciechowski" target="_blank" class="footer--bottom-btn w-inline-block">
 							<div class="footer--bottom-btn-ico w-embed">
 								<svg
 									width="24"
