@@ -330,11 +330,11 @@
 
 <!-- <Steps /> -->
 
-<!-- <Technologies /> -->
+<Technologies />
 
-<!-- <Services /> -->
+<Services />
 
-<Projects />
+<!-- <Projects /> -->
 
 <!-- <FreeBlock /> -->
 
