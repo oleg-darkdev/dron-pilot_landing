@@ -1,6 +1,6 @@
 import CookieCard from './CookieCard.svelte';
 import ContactForm from './ContactForm.svelte';
-// import BoardgameCard from './BoardgameCard.svelte';
+import FaqCard from './FaqCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
@@ -10,4 +10,4 @@ import ContactForm from './ContactForm.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 // import BoardgameCard from './BoardgameCard.svelte';
 
-export { CookieCard, ContactForm };
+export { CookieCard, ContactForm, FaqCard };
