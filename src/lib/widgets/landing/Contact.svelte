@@ -6,7 +6,7 @@
 
 
 <a name="kontakt"></a>
-<div class="h-drone mob--top-0 wf-section">
+<section class="h-drone mob--top-0 wf-section">
 	<div class="h-drone--inner">
 		<div id="w-node-a87e6253-1433-46f4-6209-f181bc70aa67-68eed0d6" class="h-drone--head">
 			<div class="container">
@@ -18,7 +18,7 @@
 					</div>
 					<div class="subhead-3">
 						<!-- Become a part of the team pioneering in new industry -->
-						Zostań częścią ery Przemysłu 4.0.
+						I przejdź na cyfryzację
 					</div>
 				</div>
 			</div>
@@ -62,7 +62,7 @@
 		alt=""
 		class="h-drone--img"
 	/>
-</div>
+</section>
 
 <style lang="postcss">
 	.gradient-btn:hover .gradient-btn--bg {
