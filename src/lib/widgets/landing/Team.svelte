@@ -84,7 +84,7 @@
 			role: 'Inżynier robotyki',
 			facebook: '',
 			linkedin: ''
-		},
+		}
 		// {
 		// 	img: '/images/team/4.jpg',
 		// 	bio: 'Lorem Ipsum',
@@ -104,7 +104,9 @@
 	];
 </script>
 
-<div class="sec-128-56">
+<a name="team"></a>
+
+<section class="sec-128-56">
 	<div class="container-small mod-csreers">
 		<h2>Nasza ekipa</h2>
 		<img
@@ -128,32 +130,33 @@
 			</p>
 		</div>
 	</div>
-</div>
+</section>
 
 <!-- <div class="sec-128-56"> -->
-	<div class="container-small">
-		<!-- <h2>Nasz zespół</h2> -->
-		 <!-- mt-56 -->
-		<div class="w-dyn-list ">
-			<div role="list" class="c-culture--teams w-dyn-items">
-				{#each team as member}
-					<div role="listitem" class="w-dyn-item">
-						<img
-							alt={member.bio}
-							loading="eager"
-							src={member.img}
-							sizes="(max-width: 479px) 44vw, (max-width: 767px) 46vw, (max-width: 991px) 42vw, 299.34375px"
-							class="c-culture--teams-img"
-						/>
-						<div class="c-culture--teams-bootom">
-							<div>{member.bio}</div>
-							<div class="a-team--slide-position">{member.role}</div>
-						</div>
+<section class="container-small">
+	<!-- <h2>Nasz zespół</h2> -->
+	<!-- mt-56 -->
+	<div class="w-dyn-list">
+		<div role="list" class="c-culture--teams w-dyn-items">
+			{#each team as member}
+				<div role="listitem" class="w-dyn-item">
+					<img
+						alt={member.bio}
+						loading="eager"
+						src={member.img}
+						sizes="(max-width: 479px) 44vw, (max-width: 767px) 46vw, (max-width: 991px) 42vw, 299.34375px"
+						class="c-culture--teams-img"
+					/>
+					<div class="c-culture--teams-bootom">
+						<div>{member.bio}</div>
+						<div class="a-team--slide-position">{member.role}</div>
 					</div>
-				{/each}
-			</div>
+				</div>
+			{/each}
 		</div>
 	</div>
+</section>
+
 <!-- </div> -->
 
 <style lang="postcss">
