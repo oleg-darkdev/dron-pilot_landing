@@ -10,15 +10,15 @@
 			<div class="h-data--content">
 				<div class="text-wr-wr">
 					<div class="text-wr--h2">
-						<h2 class="h2">Przemysl 4.0.</h2>
+						<h2 class="h2">Digitalizacija</h2>
 					</div>
 				</div>
 				<div class="subhead-2 mad-data-tablet">
 					<!-- Start making better decisions with our data. Get in touch to discuss your project today -->
-					 Rozpocznij swoją podróż do Przemysłu 4.0 z naszymi możliwościami, wszystko co musisz zrobić, to skontaktować się z nami, a my omówimy Twój projekt.
+					 Rozpocznij swoją podróż do digitalizacii z naszymi możliwościami, wszystko co musisz zrobić, to skontaktować się z nami, a my omówimy Twój projekt.
 				</div>
 			</div>
-			<a  href="/" class="link-arr w-inline-block">
+			<a  href="tel:+48666277704" class="link-arr w-inline-block">
 				<div class="inline">
 					<!-- Let’s discuss your project -->
 					 Rozpocząć dyskusję na temat projektu.

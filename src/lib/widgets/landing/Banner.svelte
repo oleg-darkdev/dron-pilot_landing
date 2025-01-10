@@ -34,14 +34,14 @@
 	<div class="container">
 		<div class="h-par--inner">
 			<h2 class="mod-par">
-				Lorem Ipsum jest tekstem  <span class="h2-bg-black"> stosowanym </span> jako przykładowy
-				wypełniacz w przemyśle poligraficznym.
+				DronPilot na służbie Przemysłu 4.0: 
+				<span class="h2-bg-black"> automatyzacja, która lata. </span>
 				<!-- Мы овладели самыми современными 
 				<span class="h2-bg-black"> технологиями, </span>
 				 чтобы все могли принимать более эффективные решения. -->
 			</h2>
 			<div class="h-par--link-wr">
-				<a href="/about" class="link-arr w-inline-block">
+				<a href="/" class="link-arr w-inline-block">
 					<div class="inline">O nas i naszej misji</div>
 					<div class="link-arr--ico w-embed">
 						<svg viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">

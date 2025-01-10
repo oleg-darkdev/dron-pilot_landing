@@ -5,40 +5,40 @@
 
 	const tech = [
 		{
-			title: 'Lorem Ipsum jest.',
+			title: 'AR (Rozszerzona rzeczywistość)',
 			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
 			shortDesc:
-				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. '
+				'Technologie rozszerzonej rzeczywistości do wizualizacji danych, rozwiązań interaktywnych i poprawy doświadczeń użytkownika.'
 		},
 		{
-			title: 'Lorem Ipsum jest.',
+			title: 'AI (Sztuczna inteligencja)',
 			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
 			shortDesc:
-				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających.'
+				'Wykorzystanie sztucznej inteligencji do analizy danych, automatyzacji procesów i tworzenia inteligentnych rozwiązań.'
 		},
 		{
-			title: 'Lorem Ipsum jest.',
+			title: 'DRON',
 			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
 			shortDesc:
-				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.'
+				'Zaawansowane technologie dronów do monitorowania, filmowania i zbierania danych w czasie rzeczywistym.'
 		},
 		{
-			title: 'Lorem Ipsum jest.',
+			title: 'NFC (Near Field Communication)',
 			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
 			shortDesc:
-				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje.'
+				'Technologie komunikacji bliskiego zasięgu do bezpiecznego przesyłania danych i wygodnej interakcji między urządzeniami.'
 		},
 		{
-			title: 'Lorem Ipsum jest.',
+			title: 'RFID (Radio-Frequency Identification)',
 			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
 			shortDesc:
-				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum.'
+				'Systemy identyfikacji i zarządzania oparte na znacznikach radiowych do efektywnej kontroli zasobów.'
 		},
 		{
-			title: 'Lorem Ipsum jest.',
+			title: 'IoT (Internet Rzeczy)',
 			icon: 'images/638dadf7b305ca8aa7eed12a_ico%202.png',
 			shortDesc:
-				'Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. '
+				'Sieci inteligentnych urządzeń do automatyzacji, monitorowania i zarządzania procesami w czasie rzeczywistym.'
 		}
 	];
 </script>
@@ -48,7 +48,7 @@
 		<div class="h-seq-title">
 			<div class="text-wr-wr">
 				<div class="text-wr--h2">
-					<h2 class="h2 mod--textgrad">Lorem Ipsum jest tekstem stosowanym.</h2>
+					<h2 class="h2 mod--textgrad">Technologie, których używamy.</h2>
 				</div>
 			</div>
 		</div>
@@ -61,7 +61,7 @@
  -->
 			{#each tech as { title, icon, shortDesc }}
 				<div class="h-seq--item">
-					<img src={icon}  qloading="eager" alt="" class="h-seq--ico" />
+					<img src={icon} qloading="eager" alt="" class="h-seq--ico" />
 					<div class="subhead-3">
 						{title}
 					</div>

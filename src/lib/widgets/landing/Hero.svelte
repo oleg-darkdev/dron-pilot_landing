@@ -9,7 +9,7 @@
 		<div class="h-hero--inner">
 			<div class="text-wr-wr">
 				<div class="text-wr--h1-large">
-					<h1 class="h1-large mod--textgrad">Latamy, by zarabiać.</h1>
+					<h1 class="h1-large mod--textgrad">Latamy, by digitalizować.</h1>
 				</div>
 			</div>
 			<div class="h-hero--wr">

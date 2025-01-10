@@ -5,51 +5,30 @@
 
 	const services = [
 		{
-			title: 'Lorem Ipsum jest tekstem stosowanym.',
+			title: 'Drony',
 			shortDesc:
-				'Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.',
-			img: 'images/638dadf7b305ca2b46eed134_top-gradient.jpg'
+				'Profesjonalne usługi zarządzania i wykorzystania dronów do filmowania, monitorowania i analizy.'
 		},
 		{
-			title: 'Lorem Ipsum jest tekstem stosowanym.',
+			title: 'Rozszerzona rzeczywistość (AR)',
 			shortDesc:
-				'Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.',
-			img: 'images/638dadf7b305ca2b46eed134_top-gradient.jpg'
+				'Tworzenie i wdrażanie rozwiązań opartych na technologii rozszerzonej rzeczywistości dla biznesu i rozrywki.'
 		},
 		{
-			title: 'Lorem Ipsum jest tekstem stosowanym.',
-			type: 'Lorem Ipsum',
-
+			title: 'Sztuczna inteligencja (AI)',
 			shortDesc:
-				'Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.',
-			img: 'images/638dadf7b305ca2b46eed134_top-gradient.jpg'
+				'Tworzenie i integracja rozwiązań AI w celu optymalizacji procesów i zwiększenia efektywności.'
 		},
 		{
-			title: 'Lorem Ipsum jest tekstem stosowanym.',
-			type: 'Lorem Ipsum',
-
+			title: 'Cyfrowa archiwizacja',
 			shortDesc:
-				'Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.',
-			img: 'images/638dadf7b305ca2b46eed134_top-gradient.jpg'
-		},
-		{
-			title: 'Lorem Ipsum jest tekstem stosowanym.',
-			type: 'Lorem Ipsum',
-
-			shortDesc:
-				'Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.',
-			img: 'images/638dadf7b305ca2b46eed134_top-gradient.jpg'
-		},
-		{
-			title: 'Lorem Ipsum jest tekstem stosowanym.',
-			type: 'Lorem Ipsum',
-
-			shortDesc:
-				'Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.',
-			img: 'images/638dadf7b305ca2b46eed134_top-gradient.jpg'
+				'Cyfryzacja i bezpieczne przechowywanie danych w celu łatwego dostępu i długoterminowego użytkowania.'
 		}
 	];
 </script>
+
+<!-- SERVICES: dron AI AR CYFR.ARCH -->
+<!-- TECH: AR, AI, DRON, NFC, RFID, IoT -->
 
 <div class="f-drone wf-section">
 	<img
@@ -64,13 +43,12 @@
 		<div class="f-drone--content">
 			<div class="text-wr-wr max-w-722">
 				<div class="text-wr--h2">
-					<h2 class="h2">Latać, by zarabiać.</h2>
+					<h2 class="h2">Latamy, by digitalizować.</h2>
 				</div>
 			</div>
 			<div class="subhead-3 mt-8">
 				Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
-				<!-- Earn rewards for collecting Earth imagery with your drone. The imagery you help collect will
-				enable better decision making by organizations everywhere. -->
+				
 			</div>
 			<a href="/" class="link-arr w-inline-block">
 				<div class="inline">Lorem Ipsum jest tekstem stosowanym.</div>
@@ -92,46 +70,44 @@
 <div class="sec-96 wf-section">
 	<div class="container-small">
 		<div class="f-card--inner">
-			{#each services as service}
-				<div class="f-card--wr">
-					<div class="f-card--line">
+			<!-- <div class="f-card--wr">
+				<div class="f-card--line">
+					<img
+						src="images/638dadf7b305ca2b46eed134_top-gradient.jpg"
+						loading="eager"
+						srcset="images/638dadf7b305ca2b46eed134_top-gradient-p-500.jpg 500w, images/638dadf7b305ca2b46eed134_top-gradient-p-800.jpg 800w, images/638dadf7b305ca2b46eed134_top-gradient.jpg 934w"
+						sizes="(max-width: 767px) 100vw, (max-width: 991px) 87vw, 930px"
+						alt=""
+						class="f-card--line-bg"
+					/>
+				</div>
+				<div class="f-card--item">
+					<div class="f-card--content">
+						<div class="caption">
+
+							Lorem Ipsum jest tekstem
+						</div>
+						<div class="subhead-1 mt-16">Services</div>
+						<div class="f-card--text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+							has been the industry's standard dummy text ever since the 1500s, when an unknown
+							printer took a galley of type and scrambled it to make a type specimen book.
+
+						</div>
+					</div>
+					<div class="f-card--img-wr">
 						<img
-							src={service.img}
-							loading="eager"
-							srcset="images/638dadf7b305ca2b46eed134_top-gradient-p-500.jpg 500w, images/638dadf7b305ca2b46eed134_top-gradient-p-800.jpg 800w, images/638dadf7b305ca2b46eed134_top-gradient.jpg 934w"
-							sizes="(max-width: 767px) 100vw, (max-width: 991px) 87vw, 930px"
+							src="images/638dadf7b305ca6e12eed15b_Fly%20for%20Fun.png"
+							loading="lazy"
+							srcset="images/638dadf7b305ca6e12eed15b_Fly%2520for%2520Fun-p-500.png 500w, images/638dadf7b305ca6e12eed15b_Fly%2520for%2520Fun-p-800.png 800w, images/638dadf7b305ca6e12eed15b_Fly%2520for%2520Fun-p-1080.png 1080w, images/638dadf7b305ca6e12eed15b_Fly%20for%20Fun.png 1484w"
+							sizes="(max-width: 767px) 100vw, (max-width: 991px) 65vw, 697.5px"
 							alt=""
-							class="f-card--line-bg"
+							class="f-card--img mod--1"
 						/>
 					</div>
-					<div class="f-card--item">
-						<div class="f-card--content">
-							<div class="caption">
-								<!--Lorem Ipsum jest tekstem  -->
-								<!-- Fly for Fun -->
-								Lorem Ipsum jest tekstem
-							</div>
-							<div class="subhead-1 mt-16">{service.title}</div>
-							<div class="f-card--text">
-								<!-- To start, pilots will earn points for missions flown, imagery collected, and for
-							referring other pilots. See how you stack up with other pilots and watch as your
-							efforts fill in a map of your area with high resolution imagery. -->
-								{service.shortDesc}
-							</div>
-						</div>
-						<div class="f-card--img-wr">
-							<img
-								src="images/638dadf7b305ca6e12eed15b_Fly%20for%20Fun.png"
-								loading="lazy"
-								srcset="images/638dadf7b305ca6e12eed15b_Fly%2520for%2520Fun-p-500.png 500w, images/638dadf7b305ca6e12eed15b_Fly%2520for%2520Fun-p-800.png 800w, images/638dadf7b305ca6e12eed15b_Fly%2520for%2520Fun-p-1080.png 1080w, images/638dadf7b305ca6e12eed15b_Fly%20for%20Fun.png 1484w"
-								sizes="(max-width: 767px) 100vw, (max-width: 991px) 65vw, 697.5px"
-								alt=""
-								class="f-card--img mod--1"
-							/>
-						</div>
-					</div>
 				</div>
-			{/each}
+			</div> -->
+			<!-- {/each} -->
 			<!-- <div class="f-card--wr">
 				<div class="f-card--line">
 					<img
@@ -182,29 +158,16 @@
 				<div class="f-start wf-section">
 					<div class="container-small">
 						<div class="f-start-inner">
-							<h2>Jak to dziala</h2>
+							<h2>Nasze usługi</h2>
 							<div class="f-start--grid">
-								<div class="f-start--item">
-									<div class="caption">01</div>
-									<div class="subhead-3">
-										Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia
-										tekstem próbnej książki. 
+								{#each services as service}
+									<div class="f-start--item">
+										<div class="caption">{service.title}</div>
+										<div class="subhead-3">
+											{service.shortDesc}
+										</div>
 									</div>
-								</div>
-								<div class="f-start--item">
-									<div class="caption">02</div>
-									<div class="subhead-3">
-										Pięć wieków później zaczął być używany przemyśle
-										elektronicznym, pozostając praktycznie niezmienionym.
-									</div>
-								</div>
-								<div class="f-start--item">
-									<div class="caption">03</div>
-									<div class="subhead-3">
-										Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia
-										tekstem próbnej książki. 
-									</div>
-								</div>
+								{/each}
 							</div>
 						</div>
 					</div>
@@ -215,4 +178,25 @@
 </div>
 
 <style lang="postcss">
+	.f-start--grid {
+		display: -ms-grid;
+		display: grid;
+		margin-top: 56px;
+		grid-auto-columns: 1fr;
+		grid-column-gap: 16px;
+		grid-row-gap: 16px;
+		-ms-grid-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		-ms-grid-rows: auto;
+		grid-template-rows: auto;
+	}
+
+	@media screen and (max-width: 767px) {
+		.f-start--grid {
+			margin-top: 40px;
+			grid-row-gap: 8px;
+			-ms-grid-columns: 1fr;
+			grid-template-columns: 1fr;
+		}
+	} 
 </style>
