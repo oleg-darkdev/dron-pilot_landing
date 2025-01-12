@@ -3,9 +3,10 @@
 @import 'tailwindcss/utilities';
 
 .mod--textgrad {
-	color: transparent;
+	/* color: transparent;
 	-webkit-text-fill-color: transparent;
-	animation: animate 40s linear infinite;
+	animation: animate 40s linear infinite; */
+	color: #fff;
 }
 
 body {
@@ -2440,7 +2441,7 @@ figcaption {
 	font-size: 18px;
 	line-height: 1.2;
 	font-weight: 700;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .h-hero--link-flex {
