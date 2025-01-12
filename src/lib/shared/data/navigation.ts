@@ -3,18 +3,18 @@ const navigation = [
 	// 	title: 'Fly to earn ',
 	// 	link: '/'
 	// },
-	{
-		title: 'Cyfryzacja działalności',
-		link: '/'
-	},
+	// {
+	// 	title: 'Cyfryzacja działalności',
+	// 	link: '/'
+	// },
 	{
 		title: 'Usługi',
-		link: '/'
+		anchor: '#usługi' 
 	},
 
 	{
 		title: 'Technologie',
-		link: '/'
+		anchor: '#technologie'
 	},
 	{
 		title: 'Kontact',
@@ -27,7 +27,7 @@ const navigation = [
 	{
 		title: 'F.A.Q.',
 		anchor: '#faq'
-	},
+	}
 	// {
 	// 	title: 'Lorem impsum',
 	// 	anchor: ''
