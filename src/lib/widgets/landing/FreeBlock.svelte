@@ -5,7 +5,7 @@
 </script>
 
 
-<div class="h-tabs wf-section">
+<section class="h-tabs wf-section">
 	<div class="h-tabs-st">
 		<div class="container">
 			<div class="text-wr-wr">
@@ -112,7 +112,7 @@
 		<div id="tab2" class="tabs--anchor"></div>
 		<div id="tab3" class="tabs--anchor"></div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>
