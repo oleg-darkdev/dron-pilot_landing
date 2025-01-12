@@ -16,6 +16,7 @@
 		Steps,
 		Partners,
 		FreeBlockSecond,
+		About,
 		Faq,
 		Projects
 	} from '$widgetsLanding';
@@ -345,6 +346,8 @@
 <Partners />
 
 <Contact />
+
+<About />
 
 <Culture />
 
