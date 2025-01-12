@@ -17,8 +17,8 @@ import Steps from './Steps.svelte';
 import Release from './Release.svelte';
 import Faq from './Faq.svelte';
 import Projects from './Projects.svelte';
-// import Projects from './Projects.svelte';
-// import Projects from './Projects.svelte';
+import FreeBlockSecond from './FreeBlockSecond.svelte';
+import Partners from './Partners.svelte';
 // import Projects from './Projects.svelte';
 // import Projects from './Projects.svelte';
 // import Projects from './Projects.svelte';
@@ -28,6 +28,7 @@ import Projects from './Projects.svelte';
 
 export {
 	Header,
+	FreeBlockSecond,
 	Popup,
 	Hero,
 	Footer,
@@ -43,5 +44,6 @@ export {
 	Technologies,
 	Release,
 	Steps,
-	Faq
+	Faq,
+	Partners
 };
