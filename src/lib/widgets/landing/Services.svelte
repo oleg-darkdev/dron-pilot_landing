@@ -1,36 +1,17 @@
 <script lang="ts">
-	// import {  } from '$shared';
+	import { services } from '$sharedData';
 	// import {  } from '$widgets';
 	// import {  } from '$entities';
 
-	const services = [
-		{
-			title: 'Drony',
-			shortDesc:
-				'Profesjonalne usługi zarządzania i wykorzystania dronów do filmowania, monitorowania i analizy.'
-		},
-		{
-			title: 'Rozszerzona rzeczywistość (AR)',
-			shortDesc:
-				'Tworzenie i wdrażanie rozwiązań opartych na technologii rozszerzonej rzeczywistości dla biznesu i rozrywki.'
-		},
-		{
-			title: 'Sztuczna inteligencja (AI)',
-			shortDesc:
-				'Tworzenie i integracja rozwiązań AI w celu optymalizacji procesów i zwiększenia efektywności.'
-		},
-		{
-			title: 'Cyfrowa archiwizacja',
-			shortDesc:
-				'Cyfryzacja i bezpieczne przechowywanie danych w celu łatwego dostępu i długoterminowego użytkowania.'
-		}
-	];
+	
 </script>
 
 <!-- SERVICES: dron AI AR CYFR.ARCH -->
 <!-- TECH: AR, AI, DRON, NFC, RFID, IoT -->
 
-<div class="f-drone wf-section">
+<a name="usługi"></a>
+
+<section class="f-drone wf-section">
 	<img
 		src="images/638dadf7b305ca5a08eed132_drone7.png"
 		loading="eager"
@@ -48,7 +29,6 @@
 			</div>
 			<div class="subhead-3 mt-8">
 				Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
-				
 			</div>
 			<a href="/" class="link-arr w-inline-block">
 				<div class="inline">Lorem Ipsum jest tekstem stosowanym.</div>
@@ -65,9 +45,9 @@
 			</a>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="sec-96 wf-section">
+<section class="sec-96 wf-section">
 	<div class="container-small">
 		<div class="f-card--inner">
 			<!-- <div class="f-card--wr">
@@ -166,6 +146,21 @@
 										<div class="subhead-3">
 											{service.shortDesc}
 										</div>
+										<div class="mt-10">
+											<a href="{service.link}" target="_blank" class="link-arr w-inline-block">
+												<div class="inline">{service.linkText}</div>
+												<div class="link-arr--ico w-embed">
+													<svg viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M8 3L8 10C8 14 6 16 2 16H0M8 3L14 7M8 3L2 7"
+															stroke="currentcolor"
+															stroke-width="2"
+															stroke-linejoin="round"
+														></path>
+													</svg>
+												</div>
+											</a>
+										</div>
 									</div>
 								{/each}
 							</div>
@@ -175,7 +170,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 	.f-start--grid {
@@ -198,5 +193,5 @@
 			-ms-grid-columns: 1fr;
 			grid-template-columns: 1fr;
 		}
-	} 
+	}
 </style>
