@@ -68,7 +68,7 @@
 	
 </script>
 
-<div class="footer wf-section">
+<footer class="footer wf-section">
 	<div class="footer-inner">
 		<div class="container">
 			<div class="footer-grid">
@@ -276,7 +276,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 
 <style lang="postcss">
 </style>

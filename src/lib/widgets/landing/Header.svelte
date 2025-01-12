@@ -4,35 +4,34 @@
 	// import {  } from '$entities'
 </script>
 
-<div class="navbar w-nav">
-	<div class="nav-inner">
-		<a href="/" aria-current="page" class="nav-logo w-nav-brand w--current">
-			<img src="images/logo.png" loading="lazy" alt="" class="nav-logo--mob" />
+<header class="navbar w-nav">
+	<div class="nav-inner flex justify-between ">
+		<!-- desk--only -->
+		<a href="/" aria-current="page" class="nav-logo w-nav-brand w--current ">
+			<!-- <img src="images/logo.png" loading="lazy" alt="" class="nav-logo--mob" /> -->
 			<img src="images/logo.png" loading="lazy" alt="" class="nav-logo--desk" />
 		</a>
-		<nav role="navigation" class="nav-menu w-nav-menu">
-			{#each navigation as { title, link }}
-				<a href={link} class="nav-link w-nav-link">{title}</a>
+
+		<!--   w-nav-menu	 -->
+		<nav role="navigation" class="nav--tablet--only nav-menu">
+			{#each navigation as { title, anchor }}
+				<a href={anchor} class="nav-link w-nav-link">{title}</a>
 			{/each}
-			<div class="nav--btns">
+			<!-- <div class="nav--btns">
 				<div class="nav-line"></div>
 				<a href="#" class="nav-link-large w-nav-link">Rozpocząć</a>
 				<div class="nav-line"></div>
-				<!-- <a id="theme-toggle" href="#" class="link-theme w-inline-block"></a> -->
-			</div>
+			</div> -->
 		</nav>
-		<div class="nav--tablet--only">
-			<a href="#" class="nav-link-large w-nav-link">Rozpocząć</a>
-			<!-- <a href="#" class="link-theme w-inline-block"></a> -->
-		</div>
+
 		<div class="menu-btn w-nav-button"></div>
 	</div>
-</div>
+</header>
 
 <style lang="postcss">
-	.nav--tablet--only {
+	/* .nav--tablet--only {
 		display: none;
-	}
+	} */
 
 	/* nav-line nav-link-large w-nav-link*/
 	.nav--btns {
@@ -83,20 +82,20 @@
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
-		display: flex;
+		/* display: flex; */
 		width: 100%;
 		max-width: 1280px;
 		margin-right: auto;
 		margin-left: auto;
 		padding: 32px 20px;
-		-webkit-box-pack: justify;
+		/* -webkit-box-pack: justify;
 		-webkit-justify-content: space-between;
 		-ms-flex-pack: justify;
 		justify-content: space-between;
 		-webkit-box-align: center;
 		-webkit-align-items: center;
 		-ms-flex-align: center;
-		align-items: center;
+		align-items: center; */
 	}
 
 	.nav-menu {
@@ -216,7 +215,7 @@
 
 	.w-nav {
 		position: relative;
-		background: #dddddd;
+		background: #fff;
 		z-index: 1000;
 	}
 	.w-nav:before,
@@ -301,7 +300,11 @@
 	.w-nav[data-collapse='all'] .w-nav-button {
 		display: block;
 	}
-
+	@media screen and (min-width: 767px) {
+		.desk--only {
+			display: none;
+		}
+	}
 	@media screen and (max-width: 767px) {
 		.w-nav[data-collapse='small'] .w-nav-menu {
 			display: none;
@@ -450,7 +453,7 @@
 		}
 
 		.menu-btn {
-			z-index: 10;
+			z-index: 90;
 			min-height: 64px;
 			min-width: 80px;
 			margin-left: 8px;
@@ -463,7 +466,8 @@
 			background-repeat: no-repeat;
 		}
 
-		.menu-btn.w--open {
+		/* .w--open */
+		.menu-btn {
 			background-color: #000;
 		}
 

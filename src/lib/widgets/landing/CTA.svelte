@@ -4,7 +4,7 @@
 	// import {  } from '$entities'
 </script>
 
-<div class="h-order wf-section">
+<section class="h-order wf-section">
 	<div class="container">
 		<div class="h-data--inner">
 			<div class="h-data--content">
@@ -36,7 +36,7 @@
 			</a>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>

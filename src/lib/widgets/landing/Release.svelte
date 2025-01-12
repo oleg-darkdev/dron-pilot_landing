@@ -4,7 +4,7 @@
 	// import {  } from '$entities'
 </script>
 
-<div class="f-drone--wr">
+<section class="f-drone--wr">
 	<div class="f-release wf-section">
 		<div class="container-small">
 			<div class="f-release--inner">
@@ -22,7 +22,7 @@
 		alt=""
 		class="f-drone--anim"
 	/>
-</div>
+</section>
 
 <style lang="postcss">
 </style>

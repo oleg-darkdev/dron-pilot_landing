@@ -4,7 +4,7 @@
 	// import {  } from '$entities'
 </script>
 
-<div data-w-id="25870cb0-933b-d60b-f31a-b1672bbc6527" class="h-par wf-section">
+<section data-w-id="25870cb0-933b-d60b-f31a-b1672bbc6527" class="h-par wf-section">
 	<div class="desk--par">
 		<img
 			src="images/638dadf7b305ca6338eed11d_par--1.png"
@@ -34,14 +34,14 @@
 	<div class="container">
 		<div class="h-par--inner">
 			<h2 class="mod-par">
-				DronPilot na służbie Przemysłu 4.0: 
-				<span class="h2-bg-black"> automatyzacja, która lata. </span>
+				DronPilot na służbie digitalizacji 
+				<span class="h2-bg-black"> która pomaga. </span>
 				<!-- Мы овладели самыми современными 
 				<span class="h2-bg-black"> технологиями, </span>
 				 чтобы все могли принимать более эффективные решения. -->
 			</h2>
 			<div class="h-par--link-wr">
-				<a href="/" class="link-arr w-inline-block">
+				<a href="#kultura" class="link-arr w-inline-block">
 					<div class="inline">O nas i naszej misji</div>
 					<div class="link-arr--ico w-embed">
 						<svg viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,7 +54,7 @@
 						</svg>
 					</div>
 				</a>
-				<a href="/" class="link-arr w-inline-block">
+				<a href="#usługi" class="link-arr w-inline-block">
 					<div class="inline">O naszych możliwościach</div>
 					<div class="link-arr--ico w-embed">
 						<svg viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>

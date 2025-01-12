@@ -4,7 +4,7 @@
 	// import {  } from '$entities'
 </script>
 
-<div class="h-hero wf-section">
+<section class="h-hero wf-section">
 	<div class="container">
 		<div class="h-hero--inner">
 			<div class="text-wr-wr">
@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="h-hero--wr">
-				<div>Transformacja cyfrowa i optymalizacjia procesów biznesowych.</div>
+				<div>TRANSFORMACJA CYFROWA i OPTYMALIZACJIA PROCESÓW BIZNESOWYCH.</div>
 				<div class="h-hero--link-flex">
 					<a href="#" class="btn--black mod-hero">Leć z nami</a>
 					<div class="h-hero--line"></div>
@@ -33,7 +33,7 @@
 			></iframe>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>

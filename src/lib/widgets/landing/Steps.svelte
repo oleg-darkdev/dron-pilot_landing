@@ -4,7 +4,7 @@
 	// import {  } from '$entities'
 </script>
 
-<div class="f-reward wf-section">
+<section class="f-reward wf-section">
 	<div class="container-small">
 		<div class="f-reward--inner">
 			<div class="text-wr-wr">
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>

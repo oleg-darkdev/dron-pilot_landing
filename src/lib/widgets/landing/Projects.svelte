@@ -40,7 +40,7 @@
 </script>
 
 <!-- sec-128-56 -->
-<div class="">
+<section class="">
 	<div class="container-small f-start-inner">
 		<h2 class="mb-20">Nasze projecty</h2>
 
@@ -121,7 +121,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>

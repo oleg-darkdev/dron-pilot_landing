@@ -4,7 +4,7 @@
 	// import {  } from '$entities'
 </script>
 
-<div class="h-welcome wf-section">
+<section class="h-welcome wf-section">
 	<div class="container">
 		<div class="h-welcome-inner">
 			<div class="h-welcome-video">
@@ -69,7 +69,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>
