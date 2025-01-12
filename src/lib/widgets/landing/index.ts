@@ -19,7 +19,7 @@ import Faq from './Faq.svelte';
 import Projects from './Projects.svelte';
 import FreeBlockSecond from './FreeBlockSecond.svelte';
 import Partners from './Partners.svelte';
-// import Projects from './Projects.svelte';
+import About from './About.svelte';
 // import Projects from './Projects.svelte';
 // import Projects from './Projects.svelte';
 // import Projects from './Projects.svelte';
@@ -36,6 +36,7 @@ export {
 	Culture,
 	Services,
 	CTA,
+	About,
 	Team,
 	Contact,
 	FreeBlock,
