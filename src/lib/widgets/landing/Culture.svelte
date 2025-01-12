@@ -5,7 +5,9 @@
 </script>
 
 <!-- sec-128-56 -->
-<div class="">
+<a name="kultura"></a>
+
+<section class="">
 	<div class="container-small mod-csreers">
 		<h2 class="careers-h2">Kultura DronPilot</h2>
 		<div class="c-culture--video"></div>
@@ -28,7 +30,7 @@
 			</p>
 		</div>
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>

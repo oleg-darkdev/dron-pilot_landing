@@ -43,7 +43,9 @@
 	];
 </script>
 
-<div class="h-seq wf-section">
+<a name="technologie"></a>
+
+<section class="h-seq wf-section">
 	<div class="container">
 		<div class="h-seq-title">
 			<div class="text-wr-wr">
@@ -84,7 +86,7 @@
 		<canvas id="main-animations"></canvas>
 		<!-- <script async="" src="https://assets.website-files.com/6370d47a2c89f708dcaaef22/63752fa67eb10bf077e9e95a_spexiSeq.js.txt" type="text/javascript"></script> -->
 	</div>
-</div>
+</section>
 
 <style lang="postcss">
 </style>
