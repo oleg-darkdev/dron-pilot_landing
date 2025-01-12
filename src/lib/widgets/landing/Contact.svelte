@@ -4,9 +4,61 @@
 	// import {  } from '$entities'
 </script>
 
-
 <a name="kontakt"></a>
 
+
+<section class="sec-128">
+	<div class="about-contacts--wr">
+		<div class="text-wr-wr">
+			<div class="text-wr--h2"><h2 class="h2">Kontakt z nami</h2></div>
+		</div>
+		<div class="about-contacts--inner">
+			<div class="about-contacts--item">
+				<div class="about-contacts--subtitle">Poland</div>
+				<div class="about-contacts--title">Lorem impsum</div>
+			</div>
+			<div class="about-contacts--item">
+				<div class="about-contacts--subtitle">Adres biurowy</div>
+				<div class="subhead-1 mod--a-contact">ul. Zagórzańska 103, Warszawa, 04-965</div>
+				<a href="#" target="_blank" class="link-arr w-inline-block mt-24"
+					><div class="inline">Adres na Mapach Google</div>
+					<div class="link-arr--ico w-embed">
+						<svg viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8 3L8 10C8 14 6 16 2 16H0M8 3L14 7M8 3L2 7"
+								stroke="currentcolor"
+								stroke-width="2"
+								stroke-linejoin="round"
+							></path>
+						</svg>
+					</div></a
+				>
+			</div>
+		</div>
+		<div class="about-contacts--maps">
+			<!-- images/638dadf7b305ca6a9aeed18b_map%20%281%29.jpg -->
+			<img
+				src=""
+				loading="lazy"
+				sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 324px, 544px"
+				
+				alt=""
+				class="about-contacts--map-img"
+			/>
+			<div class="about-contacts--map-content">
+				<div class="about-contacts--item">
+					<div class="about-contacts--subtitle">Zapytania ogólne</div>
+					<a href="mailto:lorem.pilot@gmail.com" class="about-contacts--link">lorem.pilot@gmail.com</a>
+				</div>
+				<div class="about-contacts--item">
+					<div class="about-contacts--subtitle">Dział handlowy</div>
+					<a href="mailto:lorem.pilot@gmail.com" class="about-contacts--link">lorem.pilot@gmail.com</a
+					>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="h-drone mob--top-0 wf-section">
 	<div class="h-drone--inner">
@@ -65,6 +117,7 @@
 		class="h-drone--img"
 	/>
 </section>
+
 
 <style lang="postcss">
 	.gradient-btn:hover .gradient-btn--bg {
