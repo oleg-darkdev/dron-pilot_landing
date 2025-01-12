@@ -14,6 +14,8 @@
 		Services,
 		Release,
 		Steps,
+		Partners,
+		FreeBlockSecond,
 		Faq,
 		Projects
 	} from '$widgetsLanding';
@@ -337,6 +339,10 @@
 <!-- <Projects /> -->
 
 <!-- <FreeBlock /> -->
+
+<!-- <FreeBlockSecond /> -->
+
+<Partners />
 
 <Contact />
 
