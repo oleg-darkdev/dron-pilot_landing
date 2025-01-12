@@ -1,15 +1,15 @@
 const navigation = [
-	// {
-	// 	title: 'Fly to earn ',
-	// 	link: '/'
-	// },
+	{
+		title: 'O nas',
+		link: '#onas'
+	},
 	// {
 	// 	title: 'Cyfryzacja działalności',
 	// 	link: '/'
 	// },
 	{
 		title: 'Usługi',
-		anchor: '#usługi' 
+		anchor: '#usługi'
 	},
 
 	{
