@@ -17,6 +17,16 @@
 			{#each navigation as { title, anchor }}
 				<a href={anchor} class="nav-link w-nav-link">{title}</a>
 			{/each}
+
+			<!-- <div class="nav--tablet--only">
+			<a href="#" class="nav-link-large w-nav-link">Rozpocząć</a>
+			<a href="#" class="link-theme w-inline-block"></a>
+		</div> -->
+
+
+						<!-- <a id="theme-toggle" href="#" class="link-theme w-inline-block"></a> -->
+
+
 			<!-- <div class="nav--btns">
 				<div class="nav-line"></div>
 				<a href="#" class="nav-link-large w-nav-link">Rozpocząć</a>

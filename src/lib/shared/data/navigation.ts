@@ -17,7 +17,7 @@ const navigation = [
 		anchor: '#technologie'
 	},
 	{
-		title: 'Kontact',
+		title: 'Kontakt',
 		anchor: '#kontakt'
 	},
 	{
