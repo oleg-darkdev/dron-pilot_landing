@@ -14,7 +14,7 @@
 		<div class="h-seq-title">
 			<div class="text-wr-wr">
 				<div class="text-wr--h2">
-					<h2 class="h2 mod--textgrad">Technologie, których używamy.</h2>
+					<h2 class="h2 mod--textgrad">Technologie, których uźywamy.</h2>
 				</div>
 			</div>
 		</div>
