@@ -14,36 +14,36 @@
 			img: '/images/partners/google.jpg',
 			alTtext: 'Google'
 		},
-		{
-			link: '/',
-			img: '/images/partners/adobe.jpg',
-			alTtext: 'Adobe'
-		},
+		// {
+		// 	link: '/',
+		// 	img: '/images/partners/adobe.jpg',
+		// 	alTtext: 'Adobe'
+		// },
 		{
 			link: '/',
 			img: '/images/partners/microsoft.jpg',
 			alTtext: 'Microsoft'
 		},
-		{
-			link: '/',
-			img: '/images/partners/prpl.jpg',
-			alTtext: 'PRPL'
-		},
-		{
-			link: '/',
-			img: '/images/partners/renesas.jpg',
-			alTtext: 'Renesas'
-		},
-		{
-			link: '/',
-			img: '/images/partners/roku.jpg',
-			alTtext: 'Roku'
-		},
-		{
-			link: '/',
-			img: '/images/partners/servicen.jpg',
-			alTtext: 'Servicen'
-		},
+		// {
+		// 	link: '/',
+		// 	img: '/images/partners/prpl.jpg',
+		// 	alTtext: 'PRPL'
+		// },
+		// {
+		// 	link: '/',
+		// 	img: '/images/partners/renesas.jpg',
+		// 	alTtext: 'Renesas'
+		// },
+		// {
+		// 	link: '/',
+		// 	img: '/images/partners/roku.jpg',
+		// 	alTtext: 'Roku'
+		// },
+		// {
+		// 	link: '/',
+		// 	img: '/images/partners/servicen.jpg',
+		// 	alTtext: 'Servicen'
+		// },
 		
 	];
 </script>
