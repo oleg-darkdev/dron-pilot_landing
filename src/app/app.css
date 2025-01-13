@@ -6,7 +6,7 @@
 	/* color: transparent;
 	-webkit-text-fill-color: transparent;
 	animation: animate 40s linear infinite; */
-	color: #fff;
+	color: #f28f53;
 }
 
 body {
@@ -2005,7 +2005,6 @@ textarea.w-select {
 	clear: none;
 }
 
-
 .w--nav-link-open {
 	display: block;
 	position: relative;
@@ -2253,8 +2252,8 @@ h1 {
 	display: inline;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-family: Hanson, sans-serif;
-	font-size: 68px;
+	font-family: insolent, sans-serif;
+	font-size: 76px;
 	line-height: 1;
 	font-weight: 700;
 	letter-spacing: -0.06em;
@@ -2265,8 +2264,8 @@ h2 {
 	display: inline;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-family: Hanson, sans-serif;
-	font-size: 52px;
+	font-family: insolent, sans-serif;
+	font-size: 60px;
 	line-height: 0.95;
 	font-weight: 700;
 	letter-spacing: -0.04em;
@@ -2276,8 +2275,8 @@ h2 {
 h3 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-family: Hanson, sans-serif;
-	font-size: 40px;
+	font-family: insolent, sans-serif;
+	font-size: 48px;
 	line-height: 1;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -2286,7 +2285,7 @@ h3 {
 h4 {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 18px;
+	font-size: 26px;
 	line-height: 24px;
 	font-weight: bold;
 }
@@ -2389,7 +2388,7 @@ figcaption {
 
 .big--h1.mod--textgrad {
 	display: inline;
-	color: #fff;
+	color: #f28f53;
 }
 
 .big--h1.black--bg {
@@ -2942,13 +2941,13 @@ figcaption {
 
 .mod--textgrad {
 	display: inline;
-	background-image: url('images/638dadf7b305cac323eed1ac_textgrad.jpg');
+	/* background-image: url('images/638dadf7b305cac323eed1ac_textgrad.jpg');
 	background-position: 50% 0%;
 	background-size: 3500px;
 	background-repeat: no-repeat;
 	-webkit-background-clip: text;
 	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 }
 
 .h-seq-title {
@@ -3050,7 +3049,7 @@ figcaption {
 	box-shadow:
 		-6px 0 0 0 #000,
 		6px 0 0 0 #000;
-	color: #fff;
+	color: #f28f53;
 	line-height: 1.1;
 }
 
@@ -3754,7 +3753,6 @@ figcaption {
 	position: relative;
 }
 
-
 .f-start--item {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -3771,7 +3769,7 @@ figcaption {
 	-ms-flex-align: start;
 	align-items: flex-start;
 	grid-row-gap: 16px;
-	background-color: #eae7ff;
+	background-color: #fcd9c2;
 }
 
 .f-start-inner {
@@ -5515,7 +5513,7 @@ figcaption {
 .h1-large {
 	position: relative;
 	max-width: 720px;
-	color: #fff;
+	color: #f28f53;
 	font-size: 140px;
 	line-height: 0.9;
 	letter-spacing: -0.06em;
@@ -5569,7 +5567,7 @@ figcaption {
 .h2 {
 	position: relative;
 	max-width: 720px;
-	color: #fff;
+	color: #f28f53;
 	font-size: 52px;
 	line-height: 1;
 	letter-spacing: -0.04em;
@@ -5970,9 +5968,6 @@ figcaption {
 	transition: opacity 500ms ease-in-out;
 }
 
-
-
-
 .link-theme:hover {
 	background-image: url('images/638dadf7b305ca012ceed1a1_State%253Ddefault%252C%20color%253Dwhite%252C%20Srate%253Ddark.svg');
 }
@@ -6014,12 +6009,6 @@ figcaption {
 	height: 100%;
 	margin-bottom: 0px;
 }
-
-
-
-
-
-
 
 .parent {
 	padding: 40px;
@@ -6972,8 +6961,6 @@ figcaption {
 		margin-top: 16px;
 	}
 
-
-
 	.career--rich h2 {
 		margin-top: 40px;
 		margin-bottom: 8px;
@@ -7300,8 +7287,6 @@ figcaption {
 		transform: none;
 	}
 
-	
-
 	.link-theme {
 		width: 64px;
 		margin-left: 8px;
@@ -7315,14 +7300,10 @@ figcaption {
 		display: flex;
 	}
 
-
 	.about-contacts--wr {
 		padding-right: 60px;
 		padding-left: 60px;
 	}
-
-
-
 
 	.popup-order {
 		padding-right: 60px;
@@ -8230,8 +8211,6 @@ figcaption {
 		display: block;
 	}
 
-
-
 	.cp--row {
 		margin-top: 40px;
 		padding: 16px 20px 18px;
@@ -8495,8 +8474,6 @@ figcaption {
 	.a-tabs--link.w--current {
 		height: auto;
 	}
-
-	
 
 	.popup-order {
 		padding-right: 20px;
@@ -8765,8 +8742,6 @@ figcaption {
 		padding-left: 0px;
 	}
 
-
-
 	.cp--row {
 		padding-right: 0px;
 		-webkit-box-pack: start;
@@ -8950,8 +8925,6 @@ figcaption {
 	.a-tabs--drone {
 		width: 200px;
 	}
-
-	
 
 	.succec-text {
 		left: 40px;
@@ -9439,10 +9412,9 @@ figcaption {
 	}
 }
 @font-face {
-	font-family: 'Hanson';
-	src:
-		url('/fonts/HansonBold.woff2') format('woff2'),
-		url('/fonts/HansonBold.woff') format('woff');
+	font-family: 'insolent';
+	src: url('/fonts/insolent.woff2') format('woff2');
+	/* url('/fonts/insolent.woff') format('woff'); */
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
