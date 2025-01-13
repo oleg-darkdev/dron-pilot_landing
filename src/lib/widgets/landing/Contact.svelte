@@ -19,8 +19,8 @@
 			</div>
 			<div class="about-contacts--item">
 				<div class="about-contacts--subtitle">Adres biurowy</div>
-				<div class="subhead-1 mod--a-contact">Aleje Jerozolimskie 200, Warszawa,  00-024 </div>
-				<a href="https://www.google.com/maps/place/52%C2%B013'46.9%22N+21%C2%B000'43.9%22E/@52.2306134,21.0115777,17z/data=!4m5!3m4!4b1!8m2!3d52.2297!4d21.0122?hl=pl&entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"  target="_blank" class="link-arr w-inline-block mt-24"
+				<div class="subhead-1 mod--a-contact">Kaprów 1 / 26, 84-100 Puck </div>
+				<a href="https://www.google.com/maps/place/Kapr%C3%B3w+1%2F26,+84-100+Puck/@54.7162824,18.423977,17z/data=!3m1!4b1!4m6!3m5!1s0x46fdb21a72482369:0x6ef85e349347a7e7!8m2!3d54.7162824!4d18.423977!16s%2Fg%2F11w83s4_1x?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"  target="_blank" class="link-arr w-inline-block mt-24"
 					><div class="inline">Adres na Mapach Google</div>
 					<div class="link-arr--ico w-embed">
 						<svg viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
