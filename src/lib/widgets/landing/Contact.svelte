@@ -14,13 +14,13 @@
 		</div>
 		<div class="about-contacts--inner">
 			<div class="about-contacts--item">
-				<div class="about-contacts--subtitle">Poland</div>
+				<div class="about-contacts--subtitle">Polska</div>
 				<div class="about-contacts--title">Lorem impsum</div>
 			</div>
 			<div class="about-contacts--item">
 				<div class="about-contacts--subtitle">Adres biurowy</div>
-				<div class="subhead-1 mod--a-contact">ul. Zagórzańska 103, Warszawa, 04-965</div>
-				<a href="#" target="_blank" class="link-arr w-inline-block mt-24"
+				<div class="subhead-1 mod--a-contact">Aleje Jerozolimskie 200, Warszawa,  00-024 </div>
+				<a href="https://www.google.com/maps/place/52%C2%B013'46.9%22N+21%C2%B000'43.9%22E/@52.2306134,21.0115777,17z/data=!4m5!3m4!4b1!8m2!3d52.2297!4d21.0122?hl=pl&entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"  target="_blank" class="link-arr w-inline-block mt-24"
 					><div class="inline">Adres na Mapach Google</div>
 					<div class="link-arr--ico w-embed">
 						<svg viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,11 +48,11 @@
 			<div class="about-contacts--map-content">
 				<div class="about-contacts--item">
 					<div class="about-contacts--subtitle">Zapytania ogólne</div>
-					<a href="mailto:lorem.pilot@gmail.com" class="about-contacts--link">lorem.pilot@gmail.com</a>
+					<a href="mailto:biuro@dronpilot.eu" class="about-contacts--link">biuro@dronpilot.eu</a>
 				</div>
 				<div class="about-contacts--item">
 					<div class="about-contacts--subtitle">Dział handlowy</div>
-					<a href="mailto:lorem.pilot@gmail.com" class="about-contacts--link">lorem.pilot@gmail.com</a
+					<a href="mailto:sales@dronpilot.eu" class="about-contacts--link">sales@dronpilot.eu</a
 					>
 				</div>
 			</div>

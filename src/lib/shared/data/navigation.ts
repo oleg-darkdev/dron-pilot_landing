@@ -1,7 +1,7 @@
 const navigation = [
 	{
 		title: 'O nas',
-		link: '#onas'
+		link: '#o-nas'
 	},
 	// {
 	// 	title: 'Cyfryzacja działalności',
