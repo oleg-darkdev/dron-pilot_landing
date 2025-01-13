@@ -62,8 +62,8 @@
 					<img src="images/logo.png" loading="eager" alt="" class="image" />
 				</div>
 				<div class="subhead-2">
-					Dla każdego klienta mamy podejście projektowe indywidualne, które w zależności od
-					potrzeb i profilu działalności, korelujemy z dostępnymi technologiami oraz wielkością
+					Każdemu Klientowi proponujemy indywidualne podejście projektowe, które w zależności od
+					potrzeb i profilu działalności, korelujemy z dostępnymi technologiami oraz skalą
 					prowadzonego biznesu.
 				</div>
 			</div>
