@@ -105,7 +105,7 @@
 							<h2>Nasze usługi</h2>
 							<div class="f-start--grid">
 								{#each services as service}
-									<div class="f-start--item">
+									<div class="f-start--item" id='{service.anchor}'>
 										<div class="caption">{service.title}</div>
 										<div class="subhead-3">
 											{service.shortDesc}
