@@ -15,9 +15,9 @@
 			<div class="h-hero--wr">
 				<div>TRANSFORMACJA CYFROWA i OPTYMALIZACJIA PROCESÓW BIZNESOWYCH.</div>
 				<div class="h-hero--link-flex">
-					<a href="#" class="btn--black mod-hero">Leć z nami</a>
+					<a href="#kontakt" class="btn--black mod-hero">Leć z nami</a>
 					<div class="h-hero--line"></div>
-					<a href="/" class="btn--black mod-hero"> Jak to działa</a>
+					<a href="#welcome" class="btn--black mod-hero"> Jak to działa</a>
 				</div>
 			</div>
 		</div>
