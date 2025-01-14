@@ -4,6 +4,8 @@
 	// import {  } from '$entities'
 </script>
 
+
+<a name="welcome"></a>
 <section class="h-welcome wf-section">
 	<div class="container">
 		<div class="h-welcome-inner">
