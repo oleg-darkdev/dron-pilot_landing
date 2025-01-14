@@ -4,24 +4,27 @@ const tech = [
 		icon: 'images/source/tech_ar.svg',
 		link: '/',
 
-		shortDesc:
+		shortDesc: [
 			'Technologie rozszerzonej rzeczywistości do wizualizacji danych, rozwiązań interaktywnych i poprawy doświadczeń użytkownika.'
+		]
 	},
 	{
 		title: 'AI (Sztuczna inteligencja)',
 		icon: 'images/source/tech_ai.svg',
 		link: '/',
 
-		shortDesc:
+		shortDesc: [
 			'Wykorzystanie sztucznej inteligencji do analizy danych, automatyzacji procesów i tworzenia inteligentnych rozwiązań.'
+		]
 	},
 	{
 		title: 'DRON',
 		icon: 'images/source/tech_dron.svg',
 		link: '/',
 
-		shortDesc:
+		shortDesc: [
 			'Zaawansowane technologie dronów do monitorowania, filmowania i zbierania danych w czasie rzeczywistym.'
+		]
 	},
 	{
 		title: 'Cyfrowa archiwizacja',
@@ -29,8 +32,9 @@ const tech = [
 		icon: 'images/source/tech_archive.svg',
 
 		link: '/',
-		shortDesc:
-			'Cyfryzacja i bezpieczne przechowywanie danych w celu łatwego dostępu i długoterminowego użytkowania.',
+		shortDesc: [
+			'Cyfryzacja i bezpieczne przechowywanie danych w celu łatwego dostępu i długoterminowego użytkowania.'
+		],
 		linkText: 'więcej o archiwum cyfrowym'
 	},
 	{
@@ -39,8 +43,9 @@ const tech = [
 		link: '/',
 
 		anchor: 'iot',
-		shortDesc:
+		shortDesc: [
 			'Sieci inteligentnych urządzeń do automatyzacji, monitorowania i zarządzania procesami w czasie rzeczywistym.'
+		]
 	},
 	{
 		title: 'Technologie identyfikacji bezdotykowej',
@@ -48,8 +53,9 @@ const tech = [
 		icon: 'images/source/tech_id.svg',
 
 		link: '/',
-		shortDesc:
-			'Oferujemy zaawansowane technologie identyfikacji bezdotykowej, takie jak QR, RFID i NFC, które umożliwiają szybkie i wygodne śledzenie, weryfikację oraz zarządzanie danymi.',
+		shortDesc: [
+			'Oferujemy zaawansowane technologie identyfikacji bezdotykowej, takie jak QR, RFID i NFC, które umożliwiają szybkie i wygodne śledzenie, weryfikację oraz zarządzanie danymi.'
+		],
 		linkText: 'więcej o technologiach bezdotykowych'
 	}
 

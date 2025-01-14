@@ -11,9 +11,12 @@
 	<div class="subhead-3">
 		{title}
 	</div>
+		
+	{#each shortDesc as desc}
 	<div class="subhead-3 mb-10">
-		{shortDesc}
+		{desc}
 	</div>
+	{/each}
 
 	{#if anchor === 'id'}
 		<button onclick={showIdFunc} class="link-tech w-inline-block">
